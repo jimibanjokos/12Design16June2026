@@ -1,0 +1,362 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 90px;
+}
+
+.hero-section {
+    background-color: #5ce1e6;
+    border: 5px solid green;
+}
+
+.logo-picture {
+    /* width: 40px; */
+    height: 40px;
+}
+
+header h2 {
+    font-family: "Old Standard TT", serif;
+    font-size: 18px;
+}
+
+.first-section {
+    display: flex;
+    min-height: 90vh;
+    background-color: #5ce1e6;
+    border: 5px solid pink;
+}
+
+.first-section-left {
+    width: 40%;
+    /* border: 5px solid green; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-left: 70px;
+}
+
+/* .first-section-left, .first-section-right {
+    width: 50%;
+} */
+
+
+.first-section-left h1 {
+    font-family: "Old Standard TT", serif;
+    font-size: 65px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+
+.button-container {
+    border: 5px solid black;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.2rem;
+
+}
+
+.button-container button {
+    font-family: "Old Standard TT", serif;
+    font-size: 16px;
+    border-radius: 35px;
+    padding: 5px 27px; 
+}
+
+#buy-now {
+    background-color: white;
+    font-weight: bold;
+}
+
+#shop-all {
+    background-color: #5ce1e6;
+}
+
+.headphones-picture {
+    width: 600px;
+    height: auto;
+    /* border: 5px solid black; */
+}
+
+.first-section-right {
+    width: 60%;
+    /* border: 5px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section {
+    display: flex;
+    height: 90vh;
+    background-color: #b8e7e2;
+}
+
+.second-section-left, .second-section-right {
+    width: 50%;
+    display:flex;
+}
+
+.second-section-left {
+    /* border: 3px solid red; */
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+
+.second-section-left h2 {
+    font-family: "Old Standard TT", serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 25px;
+
+}
+
+.second-section-left p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.second-section-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid brown; */
+
+}
+
+.second-section-right img {
+    height: 100%;
+    align-items: center;
+}
+
+.image-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px solid yellow; */
+    width: 100%;
+    height: 60vh;
+    /* max-width: 90%; */
+}
+
+.third-section {
+    min-height: 100vh;
+    padding: 80px;
+    text-align: center;
+    background-image: linear-gradient(45deg, #7ddfde, #d8d9de, #e2e5e3);
+    /* background-color: #5ce1e6; */
+    /* border: 5px solid black; */
+}
+
+.third-section h2 {
+    font-family: "Old Standard TT", serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.category-container {
+    /* border: 3px solid red; */
+    display:flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+
+.category-card {
+    /* flex: 1; */
+    width: 30%;
+    height: 300px;
+    /* border: 5px solid blue; */
+    background-color: white;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+
+.category-card img {
+    width: 100%;
+    /* max-width: 300px; */
+    /* height: auto; */
+    /* margin-bottom: 25px; */
+}
+
+.category-card h3 {
+    font-family: "Old Standard TT", serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+
+.category-card p {
+    font-size: 12px;
+    line-height: 1.6;
+    padding: 0 15px;
+
+}
+
+.gadget-container {
+    /* border: 3px solid green; */
+    /* width: 250px; */
+    height: 60%;
+    border-top-right-radius: 50px;
+}
+
+.gadget-container img {
+    height: 100%;
+    object-fit: cover;
+    padding: 15px;
+    border-top-right-radius: 50px;
+}
+
+/* .cellphone-picture {
+    transform: rotateY(180deg);
+} */
+
+
+.shop-all-btn {
+    font-family: "Old Standard TT", serif;
+    font-size: 16px;
+    border-radius: 35px;
+    padding: 5px 27px;
+    font-weight: bold;
+    background-color: #b8e7e2;
+    border: none;
+    cursor: pointer;
+}
+
+
+.fourth-section {
+    display: flex;
+    min-height: 100vh;
+    background-image: linear-gradient(135deg, #7ddfde, #d8d9de, #e2e5e3);
+    /* border: 3px solid green; */
+    /* background-color: #5ce1e6; */
+}
+
+.fourth-section-left, .fourth-section-right {
+    width: 50%;
+}
+
+.fourth-section-left {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.fourth-section-left h2 {
+    font-family: "Old Standard TT", serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.support-text {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.visit-text {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.fourth-section-left h3 {
+    font-size: 16px;
+    margin-top: 85px;
+    margin-bottom: 20px;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.location p {
+    line-height: 1.8;
+}
+
+
+.fourth-section-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-card {
+    width: 70%;
+    height: 500px;
+    background-color:  white;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 70px;
+    overflow: hidden;
+}
+
+.support-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 0;
+    
+}
+
+.fifth-section {
+    display: flex;
+    min-height: 70vh;
+    padding: 80px;
+    background-image: linear-gradient(45deg, #7ddfde, #d8d9de, #e2e5e3);
+    /* background-color: #5ce1e6; */
+    /* border: 5px solid green; */
+}
+
+.fifth-section-left, .fifth-section-right {
+    width: 50%;
+}
+
+.fifth-section-left h2 {
+    font-family: "Old Standard TT", serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.fifth-section-right {
+    display: flex;
+    margin-bottom: 40px;
+    gap: 100px;
+}
+
+.office h3, .social-media h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.office p, .social-media p {
+    line-height: 1.8;
+}
+
+.email {
+    padding-top: 50px;
+    font-size: 18px;
+    font-family: "Old Standard TT", serif;
+    font-weight: bold;
+    /* border: 3px solid red; */
+}
+
