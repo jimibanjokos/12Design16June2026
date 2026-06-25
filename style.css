@@ -22,7 +22,6 @@ header h2 {
 
 .first-section {
     background-color: #5ce1e6;
-    border: 5px solid green;
 }
 
 
@@ -32,7 +31,6 @@ header h2 {
     flex-direction: column;
     min-height: 90vh;
     background-color: #5ce1e6;
-    border: 5px solid pink;
 }
 
 .hero-section-left {
@@ -41,7 +39,6 @@ header h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 3px solid yellow;
 }
 
 .hero-section-left h1 {
@@ -57,11 +54,9 @@ header h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid red;
 }
 
 .button-container {
-    border: 5px solid black;
     width:100%;
     display: flex;
     justify-content: center;
@@ -74,7 +69,8 @@ header h2 {
     font-family: "Old Standard TT", serif;
     font-size: 16px;
     border-radius: 35px;
-    padding: 5px 27px; 
+    padding: 5px 27px;
+    width: 150px; 
 }
 
 #buy-now {
@@ -94,21 +90,21 @@ header h2 {
 
 .second-section {
     display: flex;
-    height: 90vh;
+    flex-direction: column;
+    min-height: 90vh;
+    padding-bottom: 30px;
     background-color: #b8e7e2;
 }
 
 .second-section-left, .second-section-right {
-    width: 50%;
+    width: 100%;
     display:flex;
 }
 
 .second-section-left {
-    /* border: 3px solid red; */
     flex-direction: column;
     justify-content: center;
-    padding-left: 80px;
-    padding-right: 50px;
+    padding: 25px;
 }
 
 .second-section-left h2 {
@@ -128,7 +124,6 @@ header h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 5px solid brown; */
 
 }
 
@@ -152,8 +147,6 @@ header h2 {
     padding: 80px;
     text-align: center;
     background-image: linear-gradient(45deg, #7ddfde, #d8d9de, #e2e5e3);
-    /* background-color: #5ce1e6; */
-    /* border: 5px solid black; */
 }
 
 .third-section h2 {
@@ -373,6 +366,21 @@ header h2 {
 
     .hero-section-right {
         width: 60%;
+    }
+
+    .second-section {
+        padding-bottom: 0px;
+        height: 90vh;
+        flex-direction: row;
+    }
+    
+    .second-section-left, .second-section-right {
+        width: 50%;
+    }
+    
+    .second-section-left {
+        padding-left: 80px;
+        padding-right: 50px;
     }
 }
 
