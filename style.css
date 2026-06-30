@@ -321,15 +321,16 @@ header h2 {
 
 .fifth-section {
     display: flex;
-    min-height: 70vh;
-    padding: 80px;
+    flex-direction: column;
+    min-height: auto;
+    padding: 40px 20px;
     background-image: linear-gradient(45deg, #7ddfde, #d8d9de, #e2e5e3);
     /* background-color: #5ce1e6; */
     /* border: 5px solid green; */
 }
 
 .fifth-section-left, .fifth-section-right {
-    width: 50%;
+    width: 100%;
 }
 
 .fifth-section-left h2 {
@@ -340,8 +341,9 @@ header h2 {
 
 .fifth-section-right {
     display: flex;
-    margin-bottom: 40px;
-    gap: 100px;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 40px;
 }
 
 .office h3, .social-media h3 {
@@ -354,7 +356,7 @@ header h2 {
 }
 
 .email {
-    padding-top: 50px;
+    padding-top: 20px;
     font-size: 18px;
     font-family: "Old Standard TT", serif;
     font-weight: bold;
@@ -438,6 +440,31 @@ header h2 {
 
     .fourth-section-right {
         margin-top: 0;
+    }
+
+    .fifth-section {
+        flex-direction: row;
+        min-height: 70vh;
+        padding: 80px;
+    }
+
+    .fifth-section-left, .fifth-section-right {
+        width: 50%;
+    }
+
+    .fifth-section-left h2 {
+        margin-bottom: 40px;
+    }
+
+    .fifth-section-right {
+        flex-direction: row;
+        gap: 100px;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .email {
+        padding-top: 50px;
     }
 
 }
