@@ -83,7 +83,7 @@ header h2 {
 }
 
 .headphones-picture {
-    width: 600px;
+    width: 330px;
     height: auto;
     /* border: 5px solid black; */
 }
@@ -380,6 +380,10 @@ header h2 {
 
     .hero-section-right {
         width: 60%;
+    }
+
+    .headphones-picture {
+        width: 600px;
     }
 
     .second-section {
